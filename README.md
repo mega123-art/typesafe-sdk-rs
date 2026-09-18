@@ -8,7 +8,7 @@ Add the dependency:
 
 ```toml
 [dependencies]
-typesafe-ai = "0.1"
+typesafe-io = "0.1"
 ```
 
 Set `TYPESAFE_API_KEY` in your environment, then create and use the client:
