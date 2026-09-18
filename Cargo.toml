@@ -1,5 +1,5 @@
 [package]
-name = "typesafe"
+name = "typesafe-ai"
 version = "0.1.0"
 edition = "2021"
 description = "Rust SDK for the TypeSafe API"
@@ -9,6 +9,9 @@ repository = "https://github.com/typesafe-ai/typesafe-sdk-rs"
 homepage = "https://docs.typesafe.ai/sdk/rust"
 keywords = ["typesafe", "ai", "api", "sdk"]
 categories = ["api-bindings"]
+
+[lib]
+name = "typesafe"
 
 [dependencies]
 reqwest = { version = "0.12", features = ["json"] }
